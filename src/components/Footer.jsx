@@ -10,7 +10,7 @@ export default function Footer() {
             SMM is Bangladesh's most trusted SMM panel. We offer fast, affordable social media growth services for every platform, with full support for local payments like bKash and Nagad.
           </p>
           <div className="footer-social">
-            <span>f</span>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABUklEQVR4AczUC07DMAwG4MLFgJMBJwNOBvnaOnKypHSVkKjmxnb+h7N2e1z++PoXBs/lkK8lPvb4Lqta2Cvl/HN0AuQQfSsSalHSRS1iP/pLf80MTIc8JSYhGFic1N7SkQGg6TbE+TsObsPoDUwD2IBS8VnylxIPKTJeTqNsb5/e4GaCDVbvxJnUxiBpNLIBZzHgrC3Trcl+gyVm3VvrohZrkQ2e1s65GwEPlqm8Z1WtbNCDjuoqMAFV02xgmgn+ejsbzFTijXlPAHn0Rw99eIIRMGlO0yqWEFUrn6A2E/BqWrWywddEzZ+b8EoGRK4nojdcswFXMQTe0fSyeEYrJRto1A3FxWi+id7ACUxwUXvBpbHE1RvoOwWg/J7AwW04IwMAQH9s8t/CxLA4N9iZASCiHxOy6fQifM/27Ql57DXrkUEAkU0ncu9QOIBnDAJ7af0BAAD//1d6Q7kAAAAGSURBVAMAbWc3MfNvORsAAAAASUVORK5CYII="/>
             <span>📷</span>
             <span>▶️</span>
             <span>🐦</span>
