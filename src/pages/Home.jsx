@@ -1,5 +1,11 @@
 import { Link } from 'react-router-dom'
 import Stats from '../components/Stats'
+import WorkingProcess from '../components/WorkingProcess'
+import PaymentMethods from '../components/PaymentMethods'
+import GrowthSection from '../components/GrowthSection'
+import Advantages from '../components/Advantages'
+import FAQ from '../components/FAQ'
+import CTASection from '../components/CTASection'
 
 export default function Home() {
   return (
@@ -101,6 +107,24 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Working Process Section */}
+      <WorkingProcess />
+
+      {/* Payment Methods Section */}
+      <PaymentMethods />
+
+      {/* Growth Section */}
+      <GrowthSection />
+
+      {/* Advantages Section */}
+      <Advantages />
+
+      {/* FAQ Section */}
+      <FAQ />
+
+      {/* CTA Section */}
+      <CTASection />
     </div>
   )
 }
