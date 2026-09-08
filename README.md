@@ -21,10 +21,28 @@ A modern, responsive landing page for an SMM (Social Media Marketing) panel buil
 
 ## Tech Stack
 
-- **React** 18.2
-- **Vite** 5.0
-- **React Router DOM** 6.20
-- **CSS** (no external CSS framework)
+### Core Technologies
+- **React** (18.2) - Component-based UI library for building the user interface
+- **Vite** (5.0) - Next-generation frontend build tool for fast development and optimized production builds
+- **React Router DOM** (6.20) - For client-side routing and navigation
+
+### Styling
+- **Plain CSS** - No external CSS framework; custom styles written in `src/App.css`
+- **CSS Grid & Flexbox** - For responsive layouts
+- **Media Queries** - For responsive design across desktop, tablet, and mobile devices
+
+### Build & Deployment
+- **Vite Build** - Production build optimization with code splitting and asset optimization
+- **Netlify** - Hosting and deployment platform with automatic deploys from GitHub
+
+### Development Tools
+- **npm** - Package manager for dependencies
+- **Git** - Version control
+- **GitHub** - Code repository and version hosting
+
+### Browser APIs
+- **Smooth Scrolling** - Native CSS `scroll-behavior: smooth` for navigation
+- **Intersection Observer** - Not used; scroll-based navigation via `scrollIntoView` API
 
 ## Getting Started
 
