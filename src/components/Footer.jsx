@@ -23,7 +23,7 @@ export default function Footer() {
           <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/">About Us</Link></li>
-            <li><Link to="/services">Services</Link></li>
+            <li><a href="#services-section">Services</a></li>
             <li><Link to="/">Blog</Link></li>
             <li><Link to="/">Contact Us</Link></li>
             <li><a href="#">Terms of Service</a></li>

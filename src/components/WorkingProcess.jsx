@@ -43,6 +43,8 @@ export default function WorkingProcess() {
               <div className="step-number">{step.num}</div>
               <h3 className="step-title">{step.title}</h3>
               <p className="step-desc">{step.desc}</p>
+              <div className="step-dots step-dots-top-left"></div>
+              <div className="step-dots step-dots-bottom-right"></div>
             </div>
           ))}
         </div>

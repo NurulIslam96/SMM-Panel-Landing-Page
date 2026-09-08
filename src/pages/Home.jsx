@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import Stats from '../components/Stats'
 import WorkingProcess from '../components/WorkingProcess'
 import PaymentMethods from '../components/PaymentMethods'
@@ -36,9 +35,9 @@ export default function Home() {
             </p>
 
             <div className="hero-buttons">
-              <Link to="/services" className="btn btn-outline">
+              <button className="btn btn-outline" onClick={() => document.getElementById('services-section').scrollIntoView({ behavior: 'smooth' })}>
                 View Services
-              </Link>
+              </button>
               <button className="btn btn-primary">
                 Create an Account
               </button>
@@ -92,7 +91,7 @@ export default function Home() {
 
         <div className="service-card">
           <div className="service-image">
-            <div className="service-image-placeholder">🚀</div>
+            <img src="/upper.jpg" alt="Facebook Marketing" className="service-image-img" />
           </div>
           <div className="service-content">
             <h3 className="service-title">Facebook Marketing Services</h3>
@@ -116,9 +115,9 @@ export default function Home() {
                 </div>
               ))}
             </div>
-            <Link to="/services" className="btn btn-primary">
+            <button className="btn btn-primary" onClick={() => document.getElementById('services-section').scrollIntoView({ behavior: 'smooth' })}>
               View Facebook Services
-            </Link>
+            </button>
           </div>
         </div>
       </section>

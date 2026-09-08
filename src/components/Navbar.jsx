@@ -17,7 +17,7 @@ export default function Navbar() {
 
       <div className="nav-links">
         <Link to="/" className={isActive('/')} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Home</Link>
-        <a href="#services-section" className={isActive('/services')}>Services</a>
+        <a href="#services-section">Services</a>
         <a href="#blog">Blog</a>
         <a href="#about">About Us</a>
         <a href="#contact">Contact Us</a>

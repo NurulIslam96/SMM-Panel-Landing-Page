@@ -15,13 +15,21 @@ export default function PaymentMethods() {
         <div className="world-map">
           <div className="map-placeholder">🌍</div>
         </div>
-        <div className="payment-icons">
-          {['VISA', 'G Pay', 'PayPal', 'Mastercard', 'Apple Pay'].map((method, index) => (
-            <div key={index} className="payment-icon-circle">
-              {method}
+        <div className="payment-arc">
+          {[
+            { label: 'VISA', color: '#1a1f71' },
+            { label: 'SEPA', color: '#004485' },
+            { label: 'G Pay', color: '#4285f4' },
+            { label: 'PayPal', color: '#003087' },
+            { label: 'Mastercard', color: '#eb001b' },
+            { label: 'Apple Pay', color: '#000' },
+          ].map((method, index) => (
+            <div key={index} className="payment-icon-circle" style={{ borderColor: method.color }}>
+              <span className="payment-icon-label" style={{ color: method.color }}>{method.label}</span>
             </div>
           ))}
         </div>
+        <div className="payment-watermark">MULTIPLE PAYMENTS</div>
       </div>
     </section>
   )
