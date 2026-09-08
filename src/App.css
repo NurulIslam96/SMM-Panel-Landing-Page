@@ -739,6 +739,8 @@ ul {
   padding: 80px 40px;
   background: #fff;
   text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .payment-visual {
@@ -882,6 +884,8 @@ ul {
   padding: 80px 40px;
   background: linear-gradient(180deg, #fff7ed 0%, #fff 100%);
   text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .advantages-grid {
@@ -941,6 +945,9 @@ ul {
   gap: 40px;
   margin-top: 48px;
   text-align: left;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .faq-left {
