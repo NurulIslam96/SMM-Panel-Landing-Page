@@ -24,7 +24,7 @@ export default function Advantages() {
   ]
 
   return (
-    <section className="advantages-section">
+    <section className="advantages-section" id="advantages-section">
       <div className="section-header">
         <div className="section-label">ADVANTAGES</div>
         <h2 className="section-title">

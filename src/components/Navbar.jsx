@@ -18,10 +18,10 @@ export default function Navbar() {
       <div className="nav-links">
         <Link to="/" className={isActive('/')} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Home</Link>
         <a href="#services-section">Services</a>
-        <a href="#blog">Blog</a>
-        <a href="#about">About Us</a>
-        <a href="#contact">Contact Us</a>
-        <a href="#api">API</a>
+        <a href="#growth-section" onClick={(e) => { e.preventDefault(); document.getElementById('growth-section').scrollIntoView({ behavior: 'smooth' }); }}>Blog</a>
+        <a href="#advantages-section" onClick={(e) => { e.preventDefault(); document.getElementById('advantages-section').scrollIntoView({ behavior: 'smooth' }); }}>About Us</a>
+        <a href="#faq-section" onClick={(e) => { e.preventDefault(); document.getElementById('faq-section').scrollIntoView({ behavior: 'smooth' }); }}>API</a>
+        <a href="#contact-section" onClick={(e) => { e.preventDefault(); document.getElementById('contact-section').scrollIntoView({ behavior: 'smooth' }); }}>Contact Us</a>
       </div>
 
       <div className="nav-buttons">

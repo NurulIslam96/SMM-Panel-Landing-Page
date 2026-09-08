@@ -35,7 +35,7 @@ export default function GrowthSection() {
   ]
 
   return (
-    <section className="growth-section">
+    <section className="growth-section" id="growth-section">
       <div className="section-header">
         <div className="section-label">GROWTH</div>
         <h2 className="section-title">
