@@ -48,36 +48,50 @@ A modern, responsive landing page for an SMM (Social Media Marketing) panel buil
 
 ### Prerequisites
 
-- Node.js (v16 or higher)
-- npm
+Make sure you have the following installed on your machine:
+- **Node.js** v16 or higher ([Download](https://nodejs.org/))
+- **npm** (comes bundled with Node.js)
 
 ### Installation
 
 ```bash
+# 1. Clone the repository
 git clone https://github.com/Saiful1253/SMM-Panel-Landing-Page.git
+
+# 2. Navigate into the project folder
 cd SMM-Panel-Landing-Page
+
+# 3. Install all dependencies
 npm install
 ```
 
-### Development
+### Run Development Server
 
 ```bash
 npm run dev
 ```
 
-The app runs on `http://localhost:5173` by default. If port 5173 is in use, Vite will automatically pick the next available port.
+This starts the Vite dev server. By default it opens on:
 
-### Build
+- Local: `http://localhost:5173`
+
+If port `5173` is already in use, Vite will automatically use the next available port.
+
+### Build for Production
 
 ```bash
 npm run build
 ```
 
-### Preview Production Build
+This creates an optimized production build in the `dist/` folder.
+
+### Preview Production Build Locally
 
 ```bash
 npm run preview
 ```
+
+This serves the built files locally so you can verify the production output before deploying.
 
 ## Deployment
 
